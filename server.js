@@ -66,10 +66,11 @@ app.delete("/api/notes/:id", (req, res) => {
   fs.writeFileSync(notesArray, JSON.stringify(db), function (error) {
     if(error) {
       return console.log(error)
+    } else {
+       console.log('Note deleted succesfully!') // This isn't logging and I'm not sure why, it works in lines 48-49
     }
   });
   res.json(db);
-  console.log('Note deleted succesfully!')
 });
 
 app.listen(PORT, () =>

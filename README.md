@@ -19,7 +19,9 @@ When running locally, start the program with:
 
 Press 'Get Started' to navigate to the notes taking page. From there you can click existing notes on the left to view them, press the garbage icon to delete existing notes (this cannot be undone). You can press the plus sign in the top right to create a new note. The Note Taker title in the top left will navigate you back to the landing page.
 
-You can end the server by pressing ctrl+c
+You can end the server by pressing:
+
+    ctrl+c
 
 ## Screenshots
 
